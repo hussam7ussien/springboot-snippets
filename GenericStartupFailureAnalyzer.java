@@ -11,6 +11,7 @@ import org.springframework.validation.BindException;
 
 import java.net.SocketException;
 
+//You need  to register the class in the spring.factories in meta-inf folder.
 public class GenericStartupFailureAnalyzer<T extends Throwable> extends AbstractFailureAnalyzer<T> {
 
     @Override
